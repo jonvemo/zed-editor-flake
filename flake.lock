@@ -20,11 +20,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1752152011,
-        "narHash": "sha256-IUITry0fyTrheG8aC1/RUgCnGy1TtMvNB95p7AgLSyI=",
+        "lastModified": 1752421348,
+        "narHash": "sha256-QK838uvY9n2T07DYL43Um6seRsp5saVV1gXFcH4A0YY=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "8f68826a6cf60f72d114cb8e9ecb092996505316",
+        "rev": "fd3bd33d9b4aec41a3b3696007fd58c815389395",
         "type": "github"
       },
       "original": {
@@ -48,27 +48,10 @@
         "type": "github"
       }
     },
-    "patched-nixpkgs": {
-      "locked": {
-        "lastModified": 1751581788,
-        "narHash": "sha256-oYHn5qiRNkWE35VQqoeeZQZ+vr89kyUFyAPb0yD3HaI=",
-        "owner": "TomaSajt",
-        "repo": "nixpkgs",
-        "rev": "cce9f4e9da34ceea0efa7ad7588256643f4da012",
-        "type": "github"
-      },
-      "original": {
-        "owner": "TomaSajt",
-        "ref": "fetch-cargo-vendor-dup",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
         "flake-parts": "flake-parts",
-        "nixpkgs": "nixpkgs",
-        "patched-nixpkgs": "patched-nixpkgs"
+        "nixpkgs": "nixpkgs"
       }
     }
   },
